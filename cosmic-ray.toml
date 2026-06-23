@@ -1,0 +1,8 @@
+[cosmic-ray]
+module-path = "percentage.py"
+python-version = "26.1.2"
+timeout = 10
+distributor.name = "local"
+
+[cosmic-ray.test-command]
+command = "pytest test.py"
